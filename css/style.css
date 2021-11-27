@@ -6,28 +6,52 @@
 
 :root {
     --title-font-color: #232C50;
-    --p-font-color: #B3B2B7;
+    --p-font-color: #535353;
     --main-color-pag: #F3603B;
-
 }
 
 body {
-    font-family: 'Be Vietnam Pro', sans-serif;
-    background-color: #ffffff;
-    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100%25'%3E%3Cdefs%3E%3ClinearGradient id='a' gradientUnits='userSpaceOnUse' x1='0' x2='0' y1='0' y2='100%25' gradientTransform='rotate(137,683,321)'%3E%3Cstop offset='0' stop-color='%23ffffff'/%3E%3Cstop offset='1' stop-color='%23FF653E'/%3E%3C/linearGradient%3E%3Cpattern patternUnits='userSpaceOnUse' id='b' width='1237' height='1030.8' x='0' y='0' viewBox='0 0 1080 900'%3E%3Cg fill-opacity='0.07'%3E%3Cpolygon fill='%23444' points='90 150 0 300 180 300'/%3E%3Cpolygon points='90 150 180 0 0 0'/%3E%3Cpolygon fill='%23AAA' points='270 150 360 0 180 0'/%3E%3Cpolygon fill='%23DDD' points='450 150 360 300 540 300'/%3E%3Cpolygon fill='%23999' points='450 150 540 0 360 0'/%3E%3Cpolygon points='630 150 540 300 720 300'/%3E%3Cpolygon fill='%23DDD' points='630 150 720 0 540 0'/%3E%3Cpolygon fill='%23444' points='810 150 720 300 900 300'/%3E%3Cpolygon fill='%23FFF' points='810 150 900 0 720 0'/%3E%3Cpolygon fill='%23DDD' points='990 150 900 300 1080 300'/%3E%3Cpolygon fill='%23444' points='990 150 1080 0 900 0'/%3E%3Cpolygon fill='%23DDD' points='90 450 0 600 180 600'/%3E%3Cpolygon points='90 450 180 300 0 300'/%3E%3Cpolygon fill='%23666' points='270 450 180 600 360 600'/%3E%3Cpolygon fill='%23AAA' points='270 450 360 300 180 300'/%3E%3Cpolygon fill='%23DDD' points='450 450 360 600 540 600'/%3E%3Cpolygon fill='%23999' points='450 450 540 300 360 300'/%3E%3Cpolygon fill='%23999' points='630 450 540 600 720 600'/%3E%3Cpolygon fill='%23FFF' points='630 450 720 300 540 300'/%3E%3Cpolygon points='810 450 720 600 900 600'/%3E%3Cpolygon fill='%23DDD' points='810 450 900 300 720 300'/%3E%3Cpolygon fill='%23AAA' points='990 450 900 600 1080 600'/%3E%3Cpolygon fill='%23444' points='990 450 1080 300 900 300'/%3E%3Cpolygon fill='%23222' points='90 750 0 900 180 900'/%3E%3Cpolygon points='270 750 180 900 360 900'/%3E%3Cpolygon fill='%23DDD' points='270 750 360 600 180 600'/%3E%3Cpolygon points='450 750 540 600 360 600'/%3E%3Cpolygon points='630 750 540 900 720 900'/%3E%3Cpolygon fill='%23444' points='630 750 720 600 540 600'/%3E%3Cpolygon fill='%23AAA' points='810 750 720 900 900 900'/%3E%3Cpolygon fill='%23666' points='810 750 900 600 720 600'/%3E%3Cpolygon fill='%23999' points='990 750 900 900 1080 900'/%3E%3Cpolygon fill='%23999' points='180 0 90 150 270 150'/%3E%3Cpolygon fill='%23444' points='360 0 270 150 450 150'/%3E%3Cpolygon fill='%23FFF' points='540 0 450 150 630 150'/%3E%3Cpolygon points='900 0 810 150 990 150'/%3E%3Cpolygon fill='%23222' points='0 300 -90 450 90 450'/%3E%3Cpolygon fill='%23FFF' points='0 300 90 150 -90 150'/%3E%3Cpolygon fill='%23FFF' points='180 300 90 450 270 450'/%3E%3Cpolygon fill='%23666' points='180 300 270 150 90 150'/%3E%3Cpolygon fill='%23222' points='360 300 270 450 450 450'/%3E%3Cpolygon fill='%23FFF' points='360 300 450 150 270 150'/%3E%3Cpolygon fill='%23444' points='540 300 450 450 630 450'/%3E%3Cpolygon fill='%23222' points='540 300 630 150 450 150'/%3E%3Cpolygon fill='%23AAA' points='720 300 630 450 810 450'/%3E%3Cpolygon fill='%23666' points='720 300 810 150 630 150'/%3E%3Cpolygon fill='%23FFF' points='900 300 810 450 990 450'/%3E%3Cpolygon fill='%23999' points='900 300 990 150 810 150'/%3E%3Cpolygon points='0 600 -90 750 90 750'/%3E%3Cpolygon fill='%23666' points='0 600 90 450 -90 450'/%3E%3Cpolygon fill='%23AAA' points='180 600 90 750 270 750'/%3E%3Cpolygon fill='%23444' points='180 600 270 450 90 450'/%3E%3Cpolygon fill='%23444' points='360 600 270 750 450 750'/%3E%3Cpolygon fill='%23999' points='360 600 450 450 270 450'/%3E%3Cpolygon fill='%23666' points='540 600 630 450 450 450'/%3E%3Cpolygon fill='%23222' points='720 600 630 750 810 750'/%3E%3Cpolygon fill='%23FFF' points='900 600 810 750 990 750'/%3E%3Cpolygon fill='%23222' points='900 600 990 450 810 450'/%3E%3Cpolygon fill='%23DDD' points='0 900 90 750 -90 750'/%3E%3Cpolygon fill='%23444' points='180 900 270 750 90 750'/%3E%3Cpolygon fill='%23FFF' points='360 900 450 750 270 750'/%3E%3Cpolygon fill='%23AAA' points='540 900 630 750 450 750'/%3E%3Cpolygon fill='%23FFF' points='720 900 810 750 630 750'/%3E%3Cpolygon fill='%23222' points='900 900 990 750 810 750'/%3E%3Cpolygon fill='%23222' points='1080 300 990 450 1170 450'/%3E%3Cpolygon fill='%23FFF' points='1080 300 1170 150 990 150'/%3E%3Cpolygon points='1080 600 990 750 1170 750'/%3E%3Cpolygon fill='%23666' points='1080 600 1170 450 990 450'/%3E%3Cpolygon fill='%23DDD' points='1080 900 1170 750 990 750'/%3E%3C/g%3E%3C/pattern%3E%3C/defs%3E%3Crect x='0' y='0' fill='url(%23a)' width='100%25' height='100%25'/%3E%3Crect x='0' y='0' fill='url(%23b)' width='100%25' height='100%25'/%3E%3C/svg%3E");
+    background-color: #F3603B;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100%25' height='100%25' viewBox='0 0 100 60'%3E%3Cg %3E%3Crect fill='%23F3A853' width='11' height='11'/%3E%3Crect fill='%23f4a956' x='10' width='11' height='11'/%3E%3Crect fill='%23f5aa59' y='10' width='11' height='11'/%3E%3Crect fill='%23f5ab5c' x='20' width='11' height='11'/%3E%3Crect fill='%23f6ab5f' x='10' y='10' width='11' height='11'/%3E%3Crect fill='%23f7ac62' y='20' width='11' height='11'/%3E%3Crect fill='%23f7ad65' x='30' width='11' height='11'/%3E%3Crect fill='%23f8ae67' x='20' y='10' width='11' height='11'/%3E%3Crect fill='%23f9af6a' x='10' y='20' width='11' height='11'/%3E%3Crect fill='%23f9b06d' y='30' width='11' height='11'/%3E%3Crect fill='%23fab170' x='40' width='11' height='11'/%3E%3Crect fill='%23fab273' x='30' y='10' width='11' height='11'/%3E%3Crect fill='%23fbb375' x='20' y='20' width='11' height='11'/%3E%3Crect fill='%23fbb478' x='10' y='30' width='11' height='11'/%3E%3Crect fill='%23fbb57b' y='40' width='11' height='11'/%3E%3Crect fill='%23fcb67e' x='50' width='11' height='11'/%3E%3Crect fill='%23fcb780' x='40' y='10' width='11' height='11'/%3E%3Crect fill='%23fcb883' x='30' y='20' width='11' height='11'/%3E%3Crect fill='%23fdb986' x='20' y='30' width='11' height='11'/%3E%3Crect fill='%23fdba88' x='10' y='40' width='11' height='11'/%3E%3Crect fill='%23fdbb8b' y='50' width='11' height='11'/%3E%3Crect fill='%23fdbc8e' x='60' width='11' height='11'/%3E%3Crect fill='%23febd90' x='50' y='10' width='11' height='11'/%3E%3Crect fill='%23febe93' x='40' y='20' width='11' height='11'/%3E%3Crect fill='%23febf96' x='30' y='30' width='11' height='11'/%3E%3Crect fill='%23fec098' x='20' y='40' width='11' height='11'/%3E%3Crect fill='%23fec29b' x='10' y='50' width='11' height='11'/%3E%3Crect fill='%23fec39d' x='70' width='11' height='11'/%3E%3Crect fill='%23fec4a0' x='60' y='10' width='11' height='11'/%3E%3Crect fill='%23fec5a2' x='50' y='20' width='11' height='11'/%3E%3Crect fill='%23fec6a5' x='40' y='30' width='11' height='11'/%3E%3Crect fill='%23fec7a8' x='30' y='40' width='11' height='11'/%3E%3Crect fill='%23fec9aa' x='20' y='50' width='11' height='11'/%3E%3Crect fill='%23fecaad' x='80' width='11' height='11'/%3E%3Crect fill='%23fdcbaf' x='70' y='10' width='11' height='11'/%3E%3Crect fill='%23fdccb2' x='60' y='20' width='11' height='11'/%3E%3Crect fill='%23fdcdb4' x='50' y='30' width='11' height='11'/%3E%3Crect fill='%23fdcfb7' x='40' y='40' width='11' height='11'/%3E%3Crect fill='%23fcd0b9' x='30' y='50' width='11' height='11'/%3E%3Crect fill='%23fcd1bc' x='90' width='11' height='11'/%3E%3Crect fill='%23fcd2be' x='80' y='10' width='11' height='11'/%3E%3Crect fill='%23fbd3c0' x='70' y='20' width='11' height='11'/%3E%3Crect fill='%23fbd5c3' x='60' y='30' width='11' height='11'/%3E%3Crect fill='%23fad6c5' x='50' y='40' width='11' height='11'/%3E%3Crect fill='%23fad7c8' x='40' y='50' width='11' height='11'/%3E%3Crect fill='%23f9d9ca' x='90' y='10' width='11' height='11'/%3E%3Crect fill='%23f9dacc' x='80' y='20' width='11' height='11'/%3E%3Crect fill='%23f8dbcf' x='70' y='30' width='11' height='11'/%3E%3Crect fill='%23f7dcd1' x='60' y='40' width='11' height='11'/%3E%3Crect fill='%23f7ded3' x='50' y='50' width='11' height='11'/%3E%3Crect fill='%23f6dfd6' x='90' y='20' width='11' height='11'/%3E%3Crect fill='%23f5e0d8' x='80' y='30' width='11' height='11'/%3E%3Crect fill='%23f4e2da' x='70' y='40' width='11' height='11'/%3E%3Crect fill='%23f4e3dd' x='60' y='50' width='11' height='11'/%3E%3Crect fill='%23f3e4df' x='90' y='30' width='11' height='11'/%3E%3Crect fill='%23f2e6e1' x='80' y='40' width='11' height='11'/%3E%3Crect fill='%23f1e7e3' x='70' y='50' width='11' height='11'/%3E%3Crect fill='%23f0e8e6' x='90' y='40' width='11' height='11'/%3E%3Crect fill='%23efeae8' x='80' y='50' width='11' height='11'/%3E%3Crect fill='%23EEEBEA' x='90' y='50' width='11' height='11'/%3E%3C/g%3E%3C/svg%3E");
     background-attachment: fixed;
     background-size: cover;
+    font-family: 'Be Vietnam Pro', sans-serif;
+    
 }
 
+h1, h2, h3, h4 {
+    font-weight: 700;
+    color: var(--title-font-color);
+}
+
+h2 {
+    font-size: 1.7rem;
+}
+
+h3 {
+    font-size: 1.2rem;
+}
+
+p {
+    color: var(--p-font-color);
+    font-size: 20px;
+    line-height: 3rem;
+}
+
+
+/*Header*/
 header {
     align-items: center;
+    background-color: #fff;
+    box-shadow: 0px 0.5px 15px var(--title-font-color);
     display: flex;
+    height: 80px;
     justify-content: space-between;
-    padding: 25px 20px;
-    box-shadow: 0px 2px 15px var(--title-font-color);
+    padding-left: 10px;
+    padding-right: 10px;
     position: sticky;
     top: 0;
-    background-color: #fff;
+        
 }
 
 header nav ul {
@@ -41,6 +65,14 @@ header nav ul li{
     
 }
 
+header nav {
+    display: none;
+}
+
+header form {
+    display: none;
+}
+
 header nav ul a {
     text-decoration: none;
     color: var(--title-font-color);
@@ -50,29 +82,42 @@ header nav ul a {
     display: flex;
 }
 
+
+/* Main*/
+
+main {
+    padding-left: 3%;
+    padding-right: 3%;
+}
+
+.firstSection, .secondSection {
+    margin-bottom: 80px;
+}
+
+/* first Section */
+
 .firstSection {
     align-items: center;
     display: flex;
     flex-direction: column-reverse;
     text-align: center;
     margin-top: 30px;
+    padding: 20px;
 }
 
 .firstSection article {
-    padding: 20px;
+    padding: 30px;
     background-color: rgba(255, 255, 255, 0.8);
     border-radius: 15px;
-    margin: 10px;
 }
 
 .firstSection img {
-    max-width: 80vh;
-    width: 80vw;
+    width: 40vw;
+    /* min-width: 200px; */
 }
 
-.firstSection h1 {
-    color: var(--title-font-color);
-    font-size: 2.5rem;
+h1 {
+    font-size: 2.25rem;
     font-weight: 700;
     margin-bottom: 10px;
     
@@ -80,8 +125,6 @@ header nav ul a {
 
 .firstSection p {
     color: var(--p-font-color);
-    font: 1rem;
-    line-height: 1.5rem;
     padding-bottom: 20px;
 }
 
@@ -100,29 +143,80 @@ header nav ul a {
     box-shadow: 0px 4px 8px aqua;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-@media screen and (min-width: 375px){
-    header nav {
-        display: none;
-    }
-
-    header form {
-        display: none;
-    }
-
+/* second Section */
+.secondSection {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 30px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 15px;
+    padding: 20px;
 }
 
+.secondSection > article {
+    margin-bottom: 90px;
+}
+
+.secondSection > article h2 {
+    margin-bottom: 20px;
+}
+
+.secondSection .numList {
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.divMargin article + article{
+    margin-top: 70px;
+}
+
+.paragraph {
+    text-align: justify;
+}
+
+.numList h3 {
+    margin-left: 15px;
+}
+
+.littleButton {
+    background-color: var(--main-color-pag);
+    color: #fff;
+    font-weight: 700;
+    padding: 15px 25px;
+    border-radius: 35px;
+    border: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Media queries */
 @media screen and (min-width: 1440px){
     
     header nav {
@@ -137,19 +231,75 @@ header nav ul a {
         display: none;
     }
 
+    main {
+        padding-left: 5vw;
+        padding-right: 5vw;
+    }
+
+    .firstSection, .secondSection {
+        margin-bottom: 100px;
+    }
+
     .firstSection article {
-        width: 40vw;
+        width: 35vw;
         text-align: left;
     }
 
-    .firstSection h1 {
-        font-size: 4rem;
+    .firstSection p {
+        color: black;
+    }
+
+    h1 {
+        font-size: 3.5rem;
     }
     
     .firstSection {
         flex-direction: row;
         align-items: center;
-        justify-content: space-around;
+        justify-content: space-between;
         margin-top: 50px;
+        padding: 40px;
+    }
+
+    h2 {
+        font-size: 2.25rem;
+    }
+
+    h3 {
+        font-size: 1.4rem;
+    }
+    
+    .secondSection {
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 40px;
+    }
+
+    .secondSection > article {
+        width: 35vw;
+        text-align: left;
+        margin-bottom: none;
+    }
+
+    .secondSection > article h2 {
+        margin-bottom: 30px;
+    }
+
+    .secondSection > article p{
+        color: black;
+    }
+
+    .secondSection > div {
+        max-width: 40vw;
+    }
+
+    .secondSection .paragraph {
+        text-align: right;
+        padding-left: 80px;
+        text-align: left;
+    }
+
+    .divMargin article + article{
+        margin-top: 100px;
     }
 }
