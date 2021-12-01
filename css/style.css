@@ -5,9 +5,9 @@
 }
 
 :root {
-    --title-font-color: #232C50;
-    --p-font-color: #535353;
     --main-color-pag: #F3603B;
+    --p-font-color: #535353;
+    --title-font-color: #232C50;
 }
 
 body {
@@ -57,6 +57,11 @@ header nav ul {
 header nav ul li{
     list-style: none;
     padding: 30px;
+    transition: all 90ms;
+}
+
+header nav ul li:hover {
+    transform: scale(1.2);
 }
 
 header nav, header .getStarted {
@@ -70,6 +75,11 @@ header nav ul a {
 
 .hamburger {
     display: flex;
+    transition: all 90ms;
+}
+
+.hamburger:hover{
+    transform: scale(1.1);
 }
 
 /* Main*/
@@ -111,8 +121,8 @@ h1 {
 
 .getStarted {
     background-color: var(--main-color-pag);
-    border-radius: 35px;
     border: none;
+    border-radius: 35px;
     box-shadow: 0px 4px 8px var(--main-color-pag);
     color: #fff;
     display: inline-block;
@@ -126,12 +136,7 @@ h1 {
 .getStarted:hover {
     background-color: var(--title-font-color);
     box-shadow: 0px 4px 8px var(--title-font-color);
-    transform: scale(0.95);
-}
-
-.littleButton:hover {
-    background-color: var(--title-font-color);
-    transform: scale(1.1);
+    transform: scale(0.92);
 }
 
 /* second Section */
@@ -166,7 +171,6 @@ h1 {
 
 .numList h3 {
     margin-left: 15px;
-    
 }
 
 .littleButton {
@@ -184,7 +188,12 @@ h1 {
     width: 50px;
 }
 
-a:hover, .getStarted:hover, .getStartedFooter:hover, .littleButton:hover { 
+.littleButton:hover {
+    background-color: var(--title-font-color);
+    transform: scale(1.1);
+}
+
+a { 
     cursor: pointer;
 }
 
@@ -215,6 +224,7 @@ li a:hover {
     padding-top: 100px;
     position: relative;
     text-align: center;
+    transition: all 200ms;
     width: 80vw;
 }
 
@@ -231,6 +241,7 @@ li a:hover {
     z-index: 1;
 }
 
+/* footer */
 footer {
     background-color: #1E1E26;
     text-align: center;
@@ -268,7 +279,7 @@ footer .getStartedFooter {
     color: #fff;
     background-color: var(--title-font-color);
     box-shadow: 0px 4px 8px var(--title-font-color);
-    transform: scale(0.95);
+    transform: scale(0.92);
 }
 
 .footerBottom {
@@ -335,9 +346,35 @@ footer input[type=email]:invalid {
     border: 3px solid #ce1c1c;
 }
 
+.footerBottom .littleButton:hover {
+    background-color: #fff;
+    color: var(--main-color-pag);
+    transform: scale(0.92);
+}
+
 /* Media queries */
 
 @media screen and (min-width: 1440px){    
+    
+    h1 {
+        font-size: 3.5rem;
+        margin-bottom: 10px;
+    }
+    
+    h2 {
+        font-size: 2.25rem;
+    }
+    
+    h3 {
+        font-size: 1.4rem;
+    }
+    
+    p {
+        font-size: 20px;
+        line-height: 2rem;
+    }
+    
+    /* Header */
     header {
         padding-left: 30px;
         padding-right: 30px;
@@ -351,6 +388,7 @@ footer input[type=email]:invalid {
         display: none;
     }
 
+    /* Main */
     main {
         padding-left: 5vw;
         padding-right: 5vw;
@@ -358,6 +396,14 @@ footer input[type=email]:invalid {
 
     .firstSection, .secondSection {
         margin-bottom: 100px;
+    }
+
+    .firstSection {
+        align-items: center;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-top: 50px;
+        padding: 40px;
     }
 
     .firstSection article {
@@ -369,32 +415,6 @@ footer input[type=email]:invalid {
         color: black;
     }
 
-    h1 {
-        font-size: 3.5rem;
-        margin-bottom: 10px;
-    }
-    
-    .firstSection {
-        align-items: center;
-        flex-direction: row;
-        justify-content: space-between;
-        margin-top: 50px;
-        padding: 40px;
-    }
-
-    h2 {
-        font-size: 2.25rem;
-    }
-
-    h3 {
-        font-size: 1.4rem;
-    }
-
-    p {
-        font-size: 20px;
-        line-height: 2rem;
-    }
-    
     .firstSection img {
         width: 40vw;
     }
@@ -404,6 +424,7 @@ footer input[type=email]:invalid {
         padding: 15px 40px;
     }
 
+    /* second section */
     .secondSection {
         flex-direction: row;
         justify-content: space-between;
@@ -441,11 +462,17 @@ footer input[type=email]:invalid {
         margin-top: 100px;
     }
 
+    /* third section */
     .thirdSection .container {
         flex-direction: row;
         justify-content: center;
     }
+    
+    .container article:hover{
+        transform: translateY(-15px);
+    }
 
+    /* footer */
     footer .footerTop {
         align-items: center;
         display: flex;
